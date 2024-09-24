@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper{
+    width: 500px;
+    height: fit-content;
+    border: solid transparent;
+    box-shadow: 1px 3px 5px black;
+    margin-left: 35%;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.app-banner{
+    text-align: center;
+}
+.app-banner h1{
+    color: rgb(11, 61, 61);
+    font-size: 26px;
+    text-decoration: underline;
+    padding: 10px;
+}
+.app-banner p{
+    color: blue;
+    padding: 7px;
+}
+input{
+    width: 55%;
+    height: 25px;
+    padding: 3px;
+    border-radius: 10px;
+    border: solid grey;
+}
+.task-list{
+    text-align: center;
+}
+.lists{
+    text-align: center;
+}
+.task-list h2{
+    text-align: center;
+    color: rgb(42, 5, 250);
+    padding: 20px;
+}
+.task-list ul {
+    list-style: none;
+    text-align: center;
+}
+.task-list ul li{
+    padding: 30px;
+
+
+}
+.task-list ul li .name{
+    text-align: center;
+    color: rgb(252, 7, 88);
+    font-size: 20px;
+}
+.task-list ul li .delete{
+    background-color: rgb(73, 6, 136);
+    color: white;
+    padding: 4px;
+    margin-left: 20px;
+}
+.add-task{
+    text-align: center;
+    padding: 30px;
+}
+button{
+    background-color: rgb(18, 230, 18);
+    width: 40px;
+    height: 30px;
+    border: solid transparent;
+}
+button:hover{
+    box-shadow: 1px 2px 5px rgb(5, 5, 5);
+}

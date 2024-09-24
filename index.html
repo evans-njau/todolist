@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <div class="app-banner">
+                <h1 id="title">Evans' To-Do-List</h1>
+                <p>This is where I record my daily activities </p>
+                <form action="" method="post" id="search">
+                    <input type="text" name="saerch" id="search-input" placeholder="search task...">
+                </form>
+            </div>
+        </header>
+        <div class="task-list" id="task-list">  
+            <h2>Here are my today's list of tasks:</h2>
+            <div class="lists" id="lists">
+                <ul>
+                    <li>
+                        <span class="name">Washing my car</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Shave my hair</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Wash my clothes</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Take a walk </span>
+                        <span class="delete">Delete</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="add-task">
+            <form action="" id="add-task">
+                <input name="add" type="text" placeholder="Add a task..."/>
+                <button>Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
